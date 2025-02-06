@@ -1,0 +1,49 @@
+const Experience = () => {
+
+    const Experiences = [
+        {
+            year: "2024-Present",
+            role: "Software Team Member",
+            company: "ReVolt EV",
+            description: "As a software team member at ReVolt EV I worked on the software systems that power the electric motorcycle. Which are coded in C through a raspberry pi-4",
+            technologies: ["C", "Raspberry pi-4"]
+
+        },
+        {
+            year: "2023-Present",
+            role: "Volunteer Full Stack Developer",
+            company: "Code the Change",
+            description: "As a Student Developer at Code the Change, I collaborated with a team to revamp the organization’s website using Next.js, TypeScript, and TailwindCSS, improving site performance and user engagement. I contributed to designing modern, responsive interfaces and worked in an agile environment, gaining valuable experience in front-end development and team collaboration.",
+            technologies: ["React.js", "Next.js", "TypeScript", "Tailwind.css"]
+
+        }
+    ]
+
+  return (
+    <div className="border-b border-neutral-900 pb-4">
+        <h2 className="my-20 text-center text-4xl text-black">Experience</h2>
+        <div>
+            {Experiences.map((experience, index) => (
+                <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+                    <div className="w-full lg:w-1/4">
+                        <p className="mb-2 text-sm text-neutral-600">{experience.year}</p>
+                    </div>
+                    <div className="w-full max-w-xl lg:w-3/4">
+                        <h6 className="mb-2 font-semibold text-neutral-600">
+                            {experience.role} - <span className="text-sm text-purple-500">
+                                {experience.company}
+                            </span>
+                        </h6>
+                        <p className="text-black mb-4">{experience.description}</p>
+                        {experience.technologies.map((tech, index) => (
+                            <span key={index} className="mr-2 mt-4 rounded bg-neutral-100 px-2 py-1 text-sm font-medium text-purple-500">{tech}</span>
+                        ))}
+                    </div>
+                </div>
+            ))}
+        </div>
+    </div>
+  )
+}
+
+export default Experience

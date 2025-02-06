@@ -11,13 +11,13 @@ const Hero = () => {
                         Full Stack Developer
                     </span>
                     <p className="my-2 max-w-xl py-6 tracking-tighter text-black">
-                        I am Ethan Braum, a driven second-year Computer Science student at the University of Calgary with a passion for building innovative solutions and solving complex problems. Blah blah blah I do not think anyone will read this far
+                        I am Ethan Braum, a driven second-year Computer Science student at the University of Calgary with an interest in full stack development, and a passion for building cool things :)
                     </p>
                 </div>
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex justify-center">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZjvuxkomh8tRPogDIYaW5FuVjGFU9_zFMsInd71foajvuC36ywxpgXP2aSSp_E0FzfVI&usqp=CAU" alt="Ethan Braum" />
+                    <img className="w-1/2 rounded-full" src="https://as2.ftcdn.net/v2/jpg/03/46/93/61/1000_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM.jpg" alt="Ethan Braum" />
                 </div>
             </div>
         </div>

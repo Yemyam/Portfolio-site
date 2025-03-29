@@ -5,20 +5,20 @@ const Experience = () => {
     const Experiences = [
         {
             year: "2024-Present",
-            role: "Software Team Member",
-            company: "ReVolt EV",
-            description: "As a software team member at ReVolt EV I worked on the software systems that power the electric motorcycle. Which are coded in C through a raspberry pi-4",
-            technologies: ["C", "Raspberry pi-4"]
+            role: "Volunteer Full Stack Developer",
+            company: "Code the Change",
+            description: "As a Student Developer at Code the Change, I collaborated with a team to revamp the organization’s website using Next.js, TypeScript, and TailwindCSS, improving site performance and user engagement. I contributed to designing modern, responsive interfaces and worked in an agile environment, gaining valuable experience in front-end development and team collaboration.",
+            technologies: ["React.js", "Next.js", "TypeScript", "Tailwind.css", "Agile"]
 
         },
         {
             year: "2023-Present",
-            role: "Volunteer Full Stack Developer",
-            company: "Code the Change",
-            description: "As a Student Developer at Code the Change, I collaborated with a team to revamp the organization’s website using Next.js, TypeScript, and TailwindCSS, improving site performance and user engagement. I contributed to designing modern, responsive interfaces and worked in an agile environment, gaining valuable experience in front-end development and team collaboration.",
-            technologies: ["React.js", "Next.js", "TypeScript", "Tailwind.css"]
+            role: "Swim Instructor",
+            company: "City Of Calgary",
+            description: "As a swim instructor with the City Of Calgary I instruct students of all ages and foster a safe learning environment. I communicate with students and parents to layout learning goals and to provide constructive feedback. In addition I layout weekly lesson plans, and write report cards for my studnets.",
+            technologies: ["Leadership", "Communication", "Planning"]
 
-        }
+        },
     ]
 
   return (
